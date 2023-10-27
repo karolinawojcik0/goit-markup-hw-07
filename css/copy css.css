@@ -915,4 +915,20 @@ ol {
         text-align: center;
         width: 264px;
     }
+
+    .clients {
+        width: 190px;
+    }
+
+    .clients-items {
+        display: flex;
+        width: calc((100% - 32px)/2);
+        height: 88px;
+    }
+
+    .clients-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 72px 16px;
+    }
 }

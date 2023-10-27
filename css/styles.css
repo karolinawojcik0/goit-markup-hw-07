@@ -341,7 +341,7 @@ ol {
 }
 
 .clients-items {
-  width: calc((100% - 120px) / 6);
+  width: ;
   height: 88px;
   list-style: none;
 }
