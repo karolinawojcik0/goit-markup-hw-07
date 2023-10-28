@@ -959,6 +959,7 @@ ol {
     }
 
     .subscribe {
+
         display: flex;
         justify-content: center;
         flex-direction: column;
@@ -972,4 +973,9 @@ ol {
     .e-mail-input {
         width: 398px;
     }
+
+    .subscribe-btn {
+        width: 117px
+    }
+
 }
