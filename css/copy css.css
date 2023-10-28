@@ -869,7 +869,7 @@ ol {
     }
 
     .section {
-        padding: 96px 16px;
+        padding: 96px 0;
     }
 
     .heading-title {
@@ -932,6 +932,11 @@ ol {
         gap: 72px 16px;
     }
 
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
     .container-footer {
         display: flex;
         flex-direction: column;
@@ -975,7 +980,8 @@ ol {
     }
 
     .subscribe-btn {
-        width: 117px
+        width: 117px;
+        margin: 0 auto;
     }
 
 }
