@@ -931,4 +931,45 @@ ol {
         justify-content: center;
         gap: 72px 16px;
     }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .subscribe-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
 }
