@@ -1211,10 +1211,10 @@ ol {
     }
 
     .section-two-list {
-
+        width: 736px;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 72px;
+        gap: 72px 24px;
     }
 
     .container-icon-solutions {
@@ -1231,17 +1231,18 @@ ol {
     }
 
     .clients {
-        width: 190px;
+        width: 168px;
     }
 
     .clients-items {
         display: flex;
-        width: calc((100% - 32px)/2);
+        width: 168px;
         height: 88px;
         justify-content: center;
     }
 
     .clients-list {
+        width: 552px;
         flex-wrap: wrap;
         justify-content: center;
         gap: 72px 16px;
