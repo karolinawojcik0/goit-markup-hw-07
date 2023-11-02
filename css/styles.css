@@ -288,7 +288,6 @@ ol {
   flex-basis: calc((100% - 3 * 16px) / 3);
 }
 
-
 .heading-title {
   color: var(--dark);
   font-family: inherit;
@@ -341,7 +340,7 @@ ol {
 }
 
 .clients-items {
-  width: ;
+  width: calc((100% - 120px) / 6);
   height: 88px;
   list-style: none;
 }
@@ -860,24 +859,4 @@ ol {
   background-color: var(--pressed-state);
   border: none;
   fill: var(--light);
-}
-
-/* MOBILE 👇*/
-@media screen and (max-width: 767px) {}
-
-/*TABLET 👇*/
-@media screen and (min-width: 768px) {
-  /* cały kod */
-}
-
-/*NOT DESKTOP 👇*/
-@media screen and (max-width: 1157px) {
-  .icon-features {
-    display: none;
-  }
-}
-
-/*DESKTOP 👇*/
-@media screen and (min-width: 1158px) {
-  /* co jest potrzebne dla desktopu */
 }

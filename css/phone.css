@@ -1,0 +1,212 @@
+/* MEDIA PHONE*/
+
+@media screen and (max-width: 767px) {
+    .header {
+        display: flex;
+        align-items: center;
+        border-bottom: 1px solid var(--CORNFLOWER, #E7E9FC);
+        background: var(--WHITE, #FFF);
+        box-shadow: 0px 1px 6px 0px rgba(46, 47, 66, 0.08), 0px 1px 1px 0px rgba(46, 47, 66, 0.16), 0px 2px 1px 0px rgba(46, 47, 66, 0.08);
+    }
+
+    .navigation {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 100%;
+        padding: 0px 15px;
+    }
+
+    .section {
+        padding: 96px 0;
+    }
+
+    .heading-title {
+        color: var(--hero-background);
+        text-align: center;
+        font-family: inherit;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .feature {
+        color: var(--text);
+        font-family: inherit;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 150% */
+        letter-spacing: 0.32px;
+        padding: 0 16px;
+    }
+
+    .section-two-list {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .container-icon-solutions {
+        display: none;
+    }
+
+    .section-three {
+        display: none;
+    }
+
+    .background-section {
+        text-align: center;
+        width: 264px;
+    }
+
+    .clients {
+        width: 190px;
+    }
+
+    .clients-items {
+        display: flex;
+        width: calc((100% - 32px)/2);
+        height: 88px;
+        justify-content: center;
+    }
+
+    .clients-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 72px 16px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-footer,
+    .subscribe-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .e-mail-input {
+        width: 80vw;
+    }
+
+    .subscribe-btn {
+        width: 117px;
+        margin: 0 auto;
+    }
+
+    .navigation .list,
+    .address {
+        display: none
+    }
+
+    .menu-text {
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+    }
+
+    .contact {
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    .social-network-phone {
+        display: inline-flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 56px;
+        padding: 48px 60px 0 40px;
+    }
+
+    .contact-mobile-phone {
+        color: var(--primary-brand);
+
+        font-family: inherit;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .contact-mobile-mail {
+        color: var(--text);
+
+        font-family: inherit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+    }
+
+    .mobile-menu-down .address {
+        display: inline-flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 40px;
+    }
+}
