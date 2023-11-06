@@ -192,13 +192,6 @@ ol {
     margin-left: auto;
 }
 
-.address-mobile {
-    font-style: normal;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: auto;
-}
 
 .address-text {
     margin-right: 0 940px;
@@ -915,6 +908,7 @@ ol {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    margin-bottom: 150px;
 }
 
 .mobile-menu .link {
@@ -963,12 +957,15 @@ ol {
     }
 
     .container {
-        width: 100%;
-        padding: 0px 15px;
+        width: 428px;
     }
 
     .section {
         padding: 96px 0;
+    }
+
+    .hero-title {
+        text-align: center;
     }
 
     .heading-title {
@@ -1102,6 +1099,7 @@ ol {
 
     .menu {
         flex-direction: column-reverse;
+        gap: 40px;
     }
 
     .contact {
@@ -1127,10 +1125,10 @@ ol {
     .contact-mobile-phone {
         color: var(--primary-brand);
 
-        font-family: inherit;
-        font-size: 20px;
+        font-family: Roboto;
+        font-size: 36px;
         font-style: normal;
-        font-weight: 500;
+        font-weight: 700;
         line-height: 40px;
         /* 111.111% */
         letter-spacing: 0.72px;
@@ -1154,7 +1152,6 @@ ol {
         flex-direction: column-reverse;
         align-items: flex-start;
         gap: 40px;
-        padding-top: 200px;
     }
 
     .svg-section-five {
@@ -1166,6 +1163,7 @@ ol {
         width: 408px;
     }
 }
+
 
 
 
@@ -1265,14 +1263,18 @@ ol {
     }
 
     .footer {
-        padding: 96px 108px;
-        display: flex;
-        justify-content: center;
+        padding: 96px 0px;
     }
 
     .container-footer {
-        justify-content: flex-start;
+        display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: flex-start;
+        column-gap: 24px;
+        row-gap: 72px;
+        max-width: 550px;
     }
 
     .brand {
@@ -1295,7 +1297,6 @@ ol {
         display: flex;
         justify-content: center;
         flex-direction: column;
-        padding-top: 76px;
         margin: 0;
 
     }
@@ -2129,19 +2130,7 @@ ol {
         display: none;
     }
 
-    .menu-container {
 
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100vw;
-        height: 100vh;
-        justify-content: space-between;
-        background-color: var(--white-background);
-        z-index: 999;
-        transform: translateX(100%);
-        transition: transform 250ms ease-in-out;
-    }
 
     .menu-container.is-open {
         transform: translateX(0);
