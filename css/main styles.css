@@ -892,8 +892,8 @@ ol {
     outline: none;
 }
 
-.menu-toggle:hover,
-.menu-toggle:focus {
+.js-close-menu:hover,
+.js-close-menu:focus {
     background-color: #404bbf;
     fill: #ffffff;
     border: none;
