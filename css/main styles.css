@@ -970,7 +970,7 @@ ol {
 }
 
 
-/* MEDIA PHONE*/
+/********** MEDIA PHONE**********/
 
 @media screen and (max-width: 768px) {
     .header {
@@ -1460,7 +1460,7 @@ ol {
     }
 }
 
-/* DESKTOP */
+/********** DESKTOP **********/
 
 @media screen and (min-width: 1200px) {
     .header {
@@ -1498,7 +1498,6 @@ ol {
         display: flex;
         align-items: center;
         justify-content: center;
-
     }
 
     .address-text {
