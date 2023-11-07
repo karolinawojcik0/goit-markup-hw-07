@@ -963,7 +963,7 @@ ol {
 (min-resolution: 2dppx) {
 
     .hero-section {
-        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(../images/hero-studio/people-office.jpg);
+        background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(46, 47, 66, 0.7)), to(rgba(46, 47, 66, 0.7))), url(../images/hero-studio/people-office-2x.jpg);
         background-image: -o-linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-studio/people-office.jpg);
         background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-studio/people-office.jpg);
     }
@@ -1253,6 +1253,19 @@ ol {
         text-transform: capitalize;
     }
 
+    .hero-title {
+        width: 320px;
+        text-align: center;
+        font-family: inherit;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
     .feature {
         width: 356px;
         align-self: stretch;
@@ -1264,7 +1277,6 @@ ol {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
-
     }
 
     .section-two-list {
@@ -1274,10 +1286,7 @@ ol {
         gap: 72px 24px;
     }
 
-    .container-icon-solutions {
-        display: none;
-    }
-
+    .container-icon-solutions,
     .section-three {
         display: none;
     }
