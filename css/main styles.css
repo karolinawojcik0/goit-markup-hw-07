@@ -1042,11 +1042,10 @@ ol {
         width: 396px;
     }
 
-    .container-icon-solutions {
-        display: none;
-    }
-
-    .section-three {
+    .container-icon-solutions,
+    .section-three,
+    .navigation .list,
+    .address {
         display: none;
     }
 
@@ -1124,11 +1123,6 @@ ol {
         margin: 0 auto;
     }
 
-    .navigation .list,
-    .address {
-        display: none
-    }
-
     .menu-text {
         font-family: Roboto;
         font-size: 36px;
@@ -1146,7 +1140,7 @@ ol {
     }
 
     .contact {
-        font-family: Roboto;
+        font-family: inherit;
         font-size: 20px;
         font-style: normal;
         font-weight: 500;
@@ -1209,8 +1203,7 @@ ol {
 
 
 
-
-/* MEDIA TABLET */
+/********** MEDIA TABLET **********/
 
 
 
