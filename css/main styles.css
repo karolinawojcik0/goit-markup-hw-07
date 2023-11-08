@@ -972,7 +972,7 @@ ol {
 
 /********** MEDIA PHONE**********/
 
-@media screen and (max-width: 768px) {
+@media screen and (min-width: 320px) and (max-width: 768px) {
     .header {
         display: flex;
         align-items: center;
@@ -989,15 +989,32 @@ ol {
     }
 
     .container {
-        width: 428px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0 15px;
     }
 
     .section {
         padding: 96px 0;
     }
 
+    .hero-section {
+        background-color: var(--modal-overlay);
+        padding: 112px 0;
+        display: flex;
+        text-align: center;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-studio/people-office.jpg);
+
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
     .hero-title {
-        width: 320px;
+        max-width: 320px;
         text-align: center;
         font-family: inherit;
         font-size: 36px;
@@ -1031,7 +1048,7 @@ ol {
         line-height: 24px;
         /* 150% */
         letter-spacing: 0.32px;
-        padding: 0 16px;
+
     }
 
     .section-two-list {
@@ -1039,7 +1056,6 @@ ol {
         align-items: center;
         flex-direction: column;
         gap: 72px;
-        width: 396px;
     }
 
     .container-icon-solutions,
@@ -1060,7 +1076,7 @@ ol {
 
     .clients-items {
         display: flex;
-        width: calc((100% - 32px)/2);
+        width: 198px;
         height: 88px;
         justify-content: center;
     }
@@ -1069,7 +1085,6 @@ ol {
         flex-wrap: wrap;
         justify-content: center;
         gap: 72px 16px;
-        width: 396px;
     }
 
     .footer {
@@ -1115,7 +1130,7 @@ ol {
     }
 
     .e-mail-input {
-        width: 398px;
+        width: 100%;
     }
 
     .subscribe-btn {
