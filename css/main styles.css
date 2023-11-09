@@ -1089,7 +1089,7 @@ ol {
     }
 
     .footer {
-        display: flex;
+
         justify-content: center;
     }
 
@@ -1298,7 +1298,6 @@ ol {
     }
 
     .footer {
-        display: flex;
         justify-content: center;
     }
 
@@ -1423,6 +1422,10 @@ ol {
 
     .modal {
         width: 408px;
+    }
+
+    .footer-newsletter {
+        width: 100%;
     }
 }
 
