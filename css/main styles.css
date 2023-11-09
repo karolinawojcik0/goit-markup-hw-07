@@ -1299,6 +1299,7 @@ ol {
 
     .footer {
         justify-content: center;
+        height: 664px;
     }
 
     .container-footer {
@@ -1461,6 +1462,11 @@ ol {
 
     .section {
         padding: 96px 0;
+    }
+
+    .hero-section {
+        height: 436px;
+        padding: 112px 0;
     }
 
     .heading-title {
