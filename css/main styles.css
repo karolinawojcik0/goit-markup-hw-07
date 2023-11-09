@@ -989,7 +989,7 @@ ol {
     }
 
     .container {
-        width: 100%;
+        max-width: 100%;
         margin: 0 auto;
         padding: 0 15px;
     }
@@ -1214,7 +1214,222 @@ ol {
     .modal {
         width: 408px;
     }
+
+    .footer-newsletter {
+        width: 100%;
+    }
 }
+
+@media screen and (min-width: 428px) and (max-width: 768px) {
+
+    .navigation {
+        width: 428px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .container {
+        width: 428px;
+        margin: 0 auto;
+        padding: 0 15px;
+    }
+
+    .section {
+        padding: 96px 0;
+    }
+
+    .hero-section {
+        background-color: var(--modal-overlay);
+        padding: 112px 0;
+        display: flex;
+        text-align: center;
+
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/hero-studio/people-office.jpg);
+
+        max-width: 1440px;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        margin: 0 auto;
+    }
+
+    .hero-title {
+        max-width: 320px;
+        text-align: center;
+        font-family: inherit;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+
+    .section-two-list {
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 72px;
+    }
+
+    .container-icon-solutions,
+    .section-three,
+    .navigation .list,
+    .address {
+        display: none;
+    }
+
+    .clients {
+        width: 190px;
+    }
+
+    .clients-items {
+        width: calc((100% - 16px) / 2);
+        height: 88px;
+        width: 190px;
+    }
+
+
+    .clients-list {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 72px 16px;
+        width: 396px;
+    }
+
+    .footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .container-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 72px;
+    }
+
+    .brand {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .footer-link {
+        display: flex;
+        justify-content: center;
+    }
+
+    .social-media-footer,
+    .subscribe-footer {
+        display: flex;
+        justify-content: center;
+    }
+
+    .subscribe {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        margin: auto;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
+    }
+
+    .e-mail-input {
+        width: 290px;
+    }
+
+    .subscribe-btn {
+        width: 117px;
+        margin: 0 auto;
+    }
+
+    .menu-text {
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .menu {
+        flex-direction: column-reverse;
+        gap: 40px;
+    }
+
+    .contact {
+        font-family: inherit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+        padding: 0;
+    }
+
+    .social-network-phone {
+        display: inline-flex;
+        align-items: flex-start;
+        flex-wrap: wrap;
+        gap: 56px;
+        padding: 48px 0 40px 0;
+    }
+
+    .contact-mobile-phone {
+        color: var(--primary-brand);
+
+        font-family: Roboto;
+        font-size: 36px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 40px;
+        /* 111.111% */
+        letter-spacing: 0.72px;
+        text-transform: capitalize;
+    }
+
+    .contact-mobile-mail {
+        color: var(--text);
+
+        font-family: inherit;
+        font-size: 20px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 24px;
+        /* 120% */
+        letter-spacing: 0.4px;
+    }
+
+    .mobile-menu-down {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        gap: 40px;
+    }
+
+    .svg-section-five {
+        width: 110px;
+        height: 56px;
+    }
+
+    .modal {
+        width: 408px;
+    }
+}
+
+
 
 
 
@@ -1358,16 +1573,10 @@ ol {
         justify-content: center;
         flex-direction: column;
         margin: 0;
-
     }
 
     .e-mail-input {
         width: 264px;
-    }
-
-    .subscribe-btn {
-        width: 117px;
-        margin: 0 auto;
     }
 
     .menu-text {
@@ -1444,35 +1653,6 @@ ol {
     }
 
 
-    .footer-link {
-        display: flex;
-    }
-
-    .menu-toggle {
-        display: none;
-    }
-
-    .link-menu-studio {
-        position: relative;
-        color: #404bbf;
-        transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-    }
-
-    .menu-text {
-        font-family: inherit;
-        font-size: 16px;
-        font-style: normal;
-        font-weight: 500;
-        line-height: 24px;
-        /* 150% */
-        letter-spacing: 0.32px;
-    }
-
-    .address-menu {
-        flex-direction: column;
-        display: flex;
-        gap: 12px;
-    }
 }
 
 /********** DESKTOP **********/
