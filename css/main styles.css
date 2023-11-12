@@ -96,6 +96,8 @@ ol {
     overflow: hidden;
 }
 
+@import url(./mediaphone\ portfolio.css);
+
 /*INDEX*/
 
 .header {
@@ -291,6 +293,17 @@ ol {
 }
 
 .heading-title {
+    color: var(--dark);
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    margin-bottom: 8px;
+    text-align: flex-start;
+}
+
+.heading-title-portfolio {
     color: var(--dark);
     font-family: inherit;
     font-size: 20px;
@@ -1215,6 +1228,19 @@ ol {
     .modal {
         width: 408px;
     }
+
+    .portfolio-main {
+        padding: 48px 0;
+    }
+
+    .buttons {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: flex-start;
+    }
+
+
+
 }
 
 @media screen and (min-width: 428px) and (max-width: 768px) {
@@ -2442,3 +2468,7 @@ ol {
         gap: 40px;
     }
 }
+
+
+
+/*********** PORTFOLIO **********/
