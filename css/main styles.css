@@ -58,6 +58,8 @@ body {
 
 img {
     display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 ul,
@@ -1237,6 +1239,12 @@ ol {
         display: inline-flex;
         flex-wrap: wrap;
         justify-content: flex-start;
+    }
+
+
+    .project-card {
+        display: flex;
+        flex-direction: column;
     }
 
 
